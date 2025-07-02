@@ -1,18 +1,19 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Sec6 = () => {
   return (
     <div className="flex flex-wrap flex-col gap-[10px] w-full max-w-[1295px] h-[1319px] absolute md:top-1650 lg:top-1700 top-2650 left-1/2 transform -translate-x-1/2 rounded-[15px] 
          border border-[#00000026] px-[131px] overflow-hidden">
           <div className="absolute top-[73px] right-[1141px] w-[218px] h[218px] "> 
-            <img src="/Portald.png" className="w-[218px] h[218px]" alt="portald" />
+            <Image src="/Portald.png" width={218} height={218} alt="portald" />
           </div>
           <div className="absolute bottom-[1137px] left-[1116px] w-[218px] h[218px] "> 
-            <img src="/Portald.png" className="w-[218px] h[218px]" alt="portald" />
+            <Image src="/Portald.png" width={218} height={218} alt="portald" />
           </div>
           <div className="flex w-full max-w-[835px] h-[192px] justify-center  absolute top-[95.5px] left-1/2 transform -translate-x-1/2 rounded-[40px]">
             <button className="w-[132px] h-[40px] absolute top-[0px]  rounded-[40px] border-1 
-             flex justify-center items-center text-center font-[500] text-[16px] text-[#5356FF] font-italic border-[#5356FF]">FAQ's</button>
+             flex justify-center items-center text-center font-[500] text-[16px] text-[#5356FF] font-italic border-[#5356FF]">FAQ&apos;</button>
             <h1 className="absolute  text-center top-[65.5px] text-3xl md:text-[38px] font-[600]  text-[#5356FF]">Frequently Asked Questions</h1>
             <p className="max-w-[835px] font-[500] text-[15px] absolute top-[142px] leading-[25px]">Explore answers to common queries about 
                Recruit GPT and our services. If you have any further questions, feel free to reach out to our team for assistance.</p>

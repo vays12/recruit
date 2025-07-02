@@ -1,12 +1,13 @@
 import React from 'react'
+import Image from 'next/image';
 
 const Sec5 = () => {
   return (
     <div className="flex flex-col absolute gap-2 md:gap-8 lg:gap-2 top-750 md:top-[3000px] lg:top-[2500px] left-1/2  transform -translate-x-1/2 w-full max-w-[1295px] h-[7450px] md:h-[3500px] lg:h-[4250px] rounded-[15px] border border-[#00000026]">
       <div className="flex flex-col gap-4 md:h-[450px] lg:h-[600px] justify-center items-center lg:items-start md:flex-row lg:gap-10  lg:justify-between">
           <div className='h-full'>
-            <img className="relative top-20 md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-80" src="/Group.png" alt="group" />
-            <img className="relative top-[-140] lg:top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-95 shadow-lg rounded-[25px]" src="Group2.png" alt="group2" />
+            <Image width={450} height={356} className="relative top-20 md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-80" src="/Group.png" alt="group" />
+            <Image width={450} height={419} className="relative top-[-140] lg:top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-95 shadow-lg rounded-[25px]" src="/Group2.png" alt="group2" />
           </div>
           <div className="flex flex-col gap-[60px] justify-center items-center lg:justify-center lg:items-start relative lg:top-20 w-[450px] lg:w-[400px] xl:w-[532px] h-[366px] rounded-lg ">
             <button className="text-center text-[16px] font-[500] border border-[#5356FF] text-[#5356FF] rounded-[40px] w-[143px] h-[40px]">How it works</button>
@@ -28,15 +29,15 @@ const Sec5 = () => {
            <button className="text-center text-[16px] font-[500] border border-black bg-black text-white rounded-[40px] w-[143px] h-[40px]">Discover Talents</button>
           </div>    
           <div className='h-full '>
-            <img className="relative md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 " src="/Group.png" alt="group" />
-            <img className="relative top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2  shadow-lg rounded-[25px]" src="Group2.png" alt="group2" />
+            <Image width={450} height={356} className="relative md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 " src="/Group.png" alt="group" />
+            <Image width={450} height={419} className="relative top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2  shadow-lg rounded-[25px]" src="/Group2.png" alt="group2" />
           </div>
        </div>
 
       <div className="flex flex-col gap-4 md:h-[450px] lg:h-[600px] justify-center items-center lg:items-start md:flex-row lg:gap-10  lg:justify-between">
           <div className='h-full'>
-            <img className="relative top-20 md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-80" src="/Group.png" alt="group" />
-            <img className="relative top-[-140] lg:top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-95 shadow-lg rounded-[25px]" src="Group2.png" alt="group2" />
+            <Image width={450} height={356}className="relative top-20 md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-80" src="/Group.png" alt="group" />
+            <Image width={450} height={419} className="relative top-[-140] lg:top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-95 shadow-lg rounded-[25px]" src="/Group2.png" alt="group2" />
           </div>
           <div className="flex flex-col gap-[60px] justify-center items-center lg:justify-center lg:items-start relative lg:top-20 w-[450px] lg:w-[400px] xl:w-[532px] h-[366px] rounded-lg ">
             <button className="text-center text-[16px] font-[500] border border-[#5356FF] text-[#5356FF] rounded-[40px] w-[143px] h-[40px]">How it works</button>
@@ -58,15 +59,15 @@ const Sec5 = () => {
            <button className="text-center text-[16px] font-[500] border border-black bg-black text-white rounded-[40px] w-[143px] h-[40px]">Discover Talents</button>
           </div>    
           <div className='h-full '>
-            <img className="relative md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 " src="/Group.png" alt="group" />
-            <img className="relative top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2  shadow-lg rounded-[25px]" src="Group2.png" alt="group2" />
+            <Image width={450} height={356} className="relative md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 " src="/Group.png" alt="group" />
+            <Image width={450} height={419} className="relative top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2  shadow-lg rounded-[25px]" src="/Group2.png" alt="group2" />
           </div>
        </div> 
       
       <div className="flex flex-col gap-4 md:h-[450px] lg:h-[600px] justify-center items-center lg:items-start md:flex-row lg:gap-10  lg:justify-between">
           <div className='h-full'>
-            <img className="relative top-20 md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-80" src="/Group.png" alt="group" />
-            <img className="relative top-[-140] lg:top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-95 shadow-lg rounded-[25px]" src="Group2.png" alt="group2" />
+            <Image width={450} height={356} className="relative top-20 md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-80" src="/Group.png" alt="group" />
+            <Image width={450} height={419} className="relative top-[-140] lg:top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-95 shadow-lg rounded-[25px]" src="/Group2.png" alt="group2" />
           </div>
           <div className="flex flex-col gap-[60px] justify-center items-center lg:justify-center lg:items-start relative lg:top-20 w-[450px] lg:w-[400px] xl:w-[532px] h-[366px] rounded-lg ">
             <button className="text-center text-[16px] font-[500] border border-[#5356FF] text-[#5356FF] rounded-[40px] w-[143px] h-[40px]">How it works</button>
@@ -88,15 +89,15 @@ const Sec5 = () => {
            <button className="text-center text-[16px] font-[500] border border-black bg-black text-white rounded-[40px] w-[143px] h-[40px]">Discover Talents</button>
           </div>    
           <div className='h-full '>
-            <img className="relative md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 " src="/Group.png" alt="group" />
-            <img className="relative top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2  shadow-lg rounded-[25px]" src="Group2.png" alt="group2" />
+            <Image width={450} height={356} className="relative md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 " src="/Group.png" alt="group" />
+            <Image width={450} height={419} className="relative top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2  shadow-lg rounded-[25px]" src="/Group2.png" alt="group2" />
           </div>
        </div>
       
       <div className="flex flex-col gap-4 md:h-[450px] lg:h-[600px] justify-center items-center lg:items-start md:flex-row lg:gap-10  lg:justify-between">
           <div className='h-full'>
-            <img className="relative top-20 md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-80" src="/Group.png" alt="group" />
-            <img className="relative top-[-140] lg:top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-95 shadow-lg rounded-[25px]" src="Group2.png" alt="group2" />
+            <Image width={450} height={356} className="relative top-20 md:top-20 lg:top-20 w-[450px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-80" src="/Group.png" alt="group" />
+            <Image width={450} height={419} className="relative top-[-140] lg:top-[-210] w-[450px] lg:w-[400px]  xl:w-[521px] left-1/2 transform -translate-x-1/2 lg:left-95 shadow-lg rounded-[25px]" src="/Group2.png" alt="group2" />
           </div>
           <div className="flex flex-col gap-[60px] justify-center items-center lg:justify-center lg:items-start relative lg:top-20 w-[450px] lg:w-[400px] xl:w-[532px] h-[366px] rounded-lg ">
             <button className="text-center text-[16px] font-[500] border border-[#5356FF] text-[#5356FF] rounded-[40px] w-[143px] h-[40px]">How it works</button>

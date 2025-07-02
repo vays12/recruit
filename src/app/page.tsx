@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import {Navbar} from "./sections/navbar";
 import Sec1 from "./sections/sec1";
 import Sec2 from "./sections/sec2";

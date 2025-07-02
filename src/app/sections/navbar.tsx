@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react";
-
+import Image from 'next/image';
 
 export function Navbar () {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,7 @@ export function Navbar () {
         
         <nav className="flex flex-col gap-10 lg:justify-between lg:flex-row lg:max-w-[1062px] h-[80px] bg-white border-white border-1 rounded-[15px] drop-shadow-lg mx-auto  lg:items-center px-4 py-2">
             <div className="flex py-3 items-center ">
-                <img src="/logo.png" alt="Logo" className="h-8 w-8" />
+                <Image src="/logo.png" alt="Logo" width={20} height={20} />
                 <h1 className="text-xl md:text-2xl font-bold">RecruitGPT</h1>
             </div>
             
