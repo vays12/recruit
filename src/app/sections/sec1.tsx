@@ -20,7 +20,7 @@ const Sec1 = () => {
           <button className='bg-black font-[500] hover:bg-blur hover:text-[20px] cursor-pointer text-white border-1 text-[16px] text-center rounded-[40px] w-[173px] h-[54px]'>Get Started</button>
         </div>
         <div className="absolute top-80 left-10 bg-cover z-10">
-            <Image src="/Portal2.svg" alt="Portal" width={40} height={40} className="w-1/2 h-1/2 md:w-[410px] md:h-[410px]" />
+            <Image src="/portal2.svg" alt="Portal" width={40} height={40} className="w-1/2 h-1/2 md:w-[410px] md:h-[410px]" />
         </div>
         <Image src="/Dashboard 1.png" alt='Dashboard' width={1100} height={350} className='rounded-2xl relative top-50 left-1/2 transform -translate-x-1/2 z-20' /> 
           

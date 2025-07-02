@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='absolute flex flex-row top-3110 md:top-2110 lg:top-2170 w-full left-1/2 transform -translate-x-1/2 max-w-[1295px] h-[350px] bg-black rounded-[30px] p-4 lg:p-15 justify-between items-center'>
       <div className='flex flex-col  w-[250px] items-start gap-4'>
         <div className='flex flex-row gap-1'>
-          <Image src='/logo.png' alt='Logo' width={20} height={20} />
+          <Image src='/logo.png' alt='Logo' width={24} height={24} />
           <h1 className='text-white text-xl font-[600]'>Recruit GPT</h1>
         </div>
         <p className='flex flex-row text-white text-sm font-[400]'>
